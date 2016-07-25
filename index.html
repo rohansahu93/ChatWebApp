@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="chatApp">
+<head>
+    <meta charset="UTF-8">
+    <title>CHATFUN</title>
+    
+    <!---------- styles --------------------->
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="app/css/style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!------- Main page --------------->
+    <div ng-controller="mainController" class="chatGroup">
+	<center>
+            <div class="input-group input-group-lg" id="content">
+            <form ng-submit="open()">
+            <input type="text" placeholder="your email" required ng-model="user" class="form-control chatInput"/>
+            </div>
+            <!---- click to start chat ---->
+            <div id="add" class="addButton" >
+<input type="submit" class="btn" value="Start Chat">
+            </div>
+         </form>
+       </div>
+  </center>
+</div>
+    
+<!---------------- script started -------------------------->
+    <script src="app/js/angular.min.js"></script>
+	<script src="app/js/ui-bootstrap-tpls-0.14.3.min.js"></script>
+    <script src="app/js/ngStorage.js"></script>
+	<script src="app/app.js"></script>
+    <script src="app/services/chatService.js"></script>
+    <script src="app/controllers/chatController.js"></script>
+</body>
+</html>
+

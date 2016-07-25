@@ -1,0 +1,82 @@
+body 
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #141823;
+    overflow-x: hidden;
+    background-image: url(../images/desk-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+}
+
+div
+{
+    display:block;
+}
+
+.chatGroup{
+    margin-top: 15%;
+}
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chatInput{
+    opacity: 0.6;
+    border:1px solid blue;
+    padding: 10% !important;
+    border-radius: 5px !important;
+}
+
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.panel-body
+{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.addButton{
+    margin-top:2%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+h2{
+margin-top:20px;
+margin-bottom:20px;
+text-align: center;
+}
